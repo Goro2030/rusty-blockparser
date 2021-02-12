@@ -24,6 +24,8 @@ It assumes a local copy of the blockchain with intact block index, downloaded wi
     balances.csv
     address ; balance
     ```
+    NOTE: The total size of the csv dump is at least 1.2 GiB (height 640508), and takes at least 6 hours on a 8-cores Ryzen 3700X with the blockchain on an SSD disk.
+
 
     `unspentcsvdump`: dumps all UTXOs along with the address balance.
     The csv file is in the following format:
